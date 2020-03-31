@@ -30,7 +30,7 @@ Rules :
 
 
 var name = 'Rudy' // change variable name value to any String
-var kartu = 'premium' // change variable kartu to 'VIP' or 'Reguler' or ''
+var kartu = 'VIP' // change variable kartu to 'VIP' or 'Reguler' or ''
 var level = 1 // change variable level value to any Number 
 
 // Write your code below
@@ -61,3 +61,25 @@ if (name == '' || kartu == '' || level < 1) {
     } else {
         console.log(`Invalid Card`)
     }
+
+/* //Switch Case
+if (name == '' || kartu == '' || level < 1) {
+    console.log('Data tidak lengkap');
+} else if (kartu == 'VIP') {
+    switch (level) {
+        case 1 : {console.log(`${name} mendapatkan kotak berwarna ${lev1} berukuran ${vip}`); break; }
+        case 2 : {console.log(`${name} mendapatkan kotak berwarna ${lev2} berukuran ${vip}`); break; }
+        case 3 : {console.log(`${name} mendapatkan kotak berwarna ${lev3} berukuran ${vip}`); break; }
+        default : {console.log(`Invalid Card`); break}
+    }
+} else if (kartu == 'Reguler') {
+    switch (level) {
+        case 1 : {console.log(`${name} mendapatkan kotak berwarna ${lev1} berukuran ${reg}`); break; }
+        case 2 : {console.log(`${name} mendapatkan kotak berwarna ${lev2} berukuran ${reg}`); break; }
+        case 3 : {console.log(`${name} mendapatkan kotak berwarna ${lev3} berukuran ${reg}`); break; }
+        default : {console.log(`Invalid Card`); break}
+    }
+} else {
+    console.log(`Invalid Card`)
+}
+*/
