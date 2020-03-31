@@ -16,20 +16,25 @@
 
 /**
  * Pseudocode :
- * SET 'tahun' as integer
+ * SET 'tahunSekarang' as integer
+ * SET 'tahunLahir' as integer
+ * SET 'umur' as integer
  * SET 'nama' as string
- * READ 'tahun'
+ * SET 'hasil' as string
+ * READ 'tahunSekarang'
+ * READ 'umur'
  * READ 'nama'
- * IF 'tahun' >= 1946 AND 'tahun' <= 1964
- *  PRINT '{nama} merupakan Generasi Baby Boomer'
- *  ELSE IF 'tahun' >= 1965 AND 'tahun' <= 1980
- *      PRINT '{nama} merupakan Generasi X'
- *      ELSE IF 'tahun' >= 1981 AND 'tahun' <= 1994
- *          PRINT '{nama} merupakan Generasi Y (Milenial)'
- *          ELSE IF 'tahun' >= 1995 AND 'tahun' <= 2010
- *              PRINT '{nama} merupakan generasi Z'
- *              ELSE IF 'tahun' >= 2011 AND 'tahun' <=2024
- *                  PRINT '{nama} merupakan Generasi ALpha'
+ * COMPUTE 'tahunLahir' with 'tahunSekarang' substract 'umur'
+ * IF 'tahunLahir' >= 1946 AND 'tahunLahir' <= 1964
+ *  SET 'hasil' = '{nama} merupakan Generasi Baby Boomer'
+ *  ELSE IF 'tahunLahir' >= 1965 AND 'tahunLahir' <= 1980
+ *      SET 'hasil' = '{nama} merupakan Generasi X'
+ *      ELSE IF 'tahunLahir' >= 1981 AND 'tahunLahir' <= 1994
+ *          SET 'hasil' = '{nama} merupakan Generasi Y (Milenial)'
+ *          ELSE IF 'tahunLahir' >= 1995 AND 'tahunLahir' <= 2010
+ *              SET 'hasil' = '{nama} merupakan generasi Z'
+ *              ELSE IF 'tahunLahir' >= 2011 AND 'tahunLahir' <=2024
+ *                  SET 'hasil' = '{nama} merupakan Generasi ALpha'
  * ENDIF
- * 
+ * PRINT 'hasil'
 */
